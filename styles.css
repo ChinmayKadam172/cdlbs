@@ -66,10 +66,23 @@ a:hover
     {
         text-align: center;
     }
+    .card-bg
+    {
+        margin: auto;
+    }
     .sub-heading
     {
         visibility: hidden;
         height: 0px;
+    }
+    .card-text
+    {
+        text-align: center;
+    }
+    .mb-3
+    {
+        width: 300px;
+        margin-bottom: 50px;
     }
 }
 .btn-custom
