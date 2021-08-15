@@ -86,7 +86,17 @@ a:hover
     }
     .sub-heading-2
     {
-        visibility: hidden;
+        width: 100%
+        margin: auto;
+    }
+    .milestone
+    {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    h4
+    {
+        text-align: center;
     }
 }
 .btn-custom
@@ -104,7 +114,8 @@ a:hover
 }
 .custom-section
 {
-    background-color: #18191a;
+    /*background-color: #18191a;*/
+    background-image: url("assets/bg3.jpg");
     padding: 100px;
 }
 .custom-section-2
@@ -119,9 +130,15 @@ a:hover
     background-color: black;
     border-radius: 16px;
     margin-bottom: 30px;
-    transition: 1s;
 }
-.card-bg:hover
+.event-card
+{
+    background-color: black;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    transition: 1s;   
+}
+.event-card:hover
 {
     transform: translateY(-10px);
 }
@@ -167,4 +184,23 @@ a:hover
 .name
 {
     font-weight: bold;
+}
+.icon-green
+{
+    color: #31E25B;
+    font-size: 32px;
+    margin-top: 10px;
+}
+.icon-green:hover
+{
+    color: #31e25a8f;
+}
+p
+{
+    margin-bottom: 0;
+}
+.milestone-icon
+{
+    padding-top: 0px;
+    font-size: 40px;
 }
