@@ -21,8 +21,21 @@ a:hover
 {
     font-weight: bolder;
 }
+.logo-img
+{
+    border-radius: 100px;
+}
+.nav-custom
+{
+    transition: 1s;
+}
+.nav-custom:hover
+{
+    transform: translateY(-5px);
+}
 .navbar-text
 {
+    font-weight: 700;
     font-size: 1em;
     padding: 2em;
 }
@@ -62,6 +75,10 @@ a:hover
         width: 100%;
         padding-bottom: 10px;
     }
+    .btn-custom
+    {
+        padding: 10px 90px;
+    }
     .section-heading
     {
         text-align: center;
@@ -69,6 +86,8 @@ a:hover
     .card-bg
     {
         margin: auto;
+        width: 300px;
+        margin-bottom: 50px;
     }
     .sub-heading
     {
@@ -78,11 +97,6 @@ a:hover
     .card-text
     {
         text-align: center;
-    }
-    .mb-3
-    {
-        width: 300px;
-        margin-bottom: 50px;
     }
     .sub-heading-2
     {
@@ -98,13 +112,19 @@ a:hover
     {
         text-align: center;
     }
+    .gallery img
+    {
+        margin: auto;
+    }
+    
+
 }
 .btn-custom
 {
     background-color:#18191a;
     font-weight: bold;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0.75px;
+    padding: 10px 40px;
     color: white;
 }
 .btn-custom:hover
@@ -203,4 +223,33 @@ p
 {
     padding-top: 0px;
     font-size: 40px;
+}
+.gallery
+{
+    width: 325px;
+    background-color: transparent;
+    border-radius: 16px;
+}
+.gallery-heading
+{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 10px;
+}
+.center
+{
+    text-align: center;
+}
+.contact-custom
+{
+    color: lightgreen;
+}
+.contact-custom:hover
+{
+    color: #31E25B;
+}
+.footer-custom
+{
+    text-align: center;
+    padding-top: 100px;
 }
