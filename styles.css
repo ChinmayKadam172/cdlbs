@@ -3,7 +3,7 @@ html {
 }
 body {
 	background-image: url("assets/bg.png");
-	background-repeat: no-repeat;
+    overflow-x:hidden;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 }
@@ -63,13 +63,12 @@ a:hover {
 	color: black;
 }
 .custom-section {
-	/*background-color: #18191a;*/
 	background-image: url("assets/bg3.jpg");
 	padding: 100px;
 }
 .custom-section-2 {
 	background-image: url("assets/bg.png");
-	background-attachment: fixed;
+    background-attachment: fixed;
 	padding: 100px;
 	padding-bottom: 0;
 }
@@ -178,6 +177,11 @@ p {
 	.section-heading {
 		text-align: center;
 	}
+    .event-card{
+        margin: auto;
+		width: 300px;
+		margin-bottom: 50px;
+    }
 	.card-bg {
 		margin: auto;
 		width: 300px;
@@ -203,4 +207,7 @@ p {
 	.gallery img {
 		margin: auto;
 	}
+    .gallery{
+        margin: auto;
+    }
 }
