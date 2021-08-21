@@ -1,8 +1,11 @@
 html {
 	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
 }
 body {
 	background-image: url("assets/bg.png");
+	background-size: inherit;
     overflow-x:hidden;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
@@ -65,11 +68,13 @@ a:hover {
 .custom-section {
 	background-image: url("assets/bg3.jpg");
 	padding: 100px;
+	margin-right: 0px;
 }
 .custom-section-2 {
 	background-image: url("assets/bg.png");
     background-attachment: fixed;
 	padding: 100px;
+	margin-right: 0px;
 	padding-bottom: 0;
 }
 .card-bg {
@@ -177,14 +182,22 @@ p {
 	.section-heading {
 		text-align: center;
 	}
+	.custom-section{
+		width: 100%;
+		padding: 70px;
+	}
+	.custom-section-2{
+		width: 100%;
+		padding: 80px 65px 80px 80px;
+	}
     .event-card{
         margin: auto;
-		width: 300px;
+		/*width: 300px;*/
 		margin-bottom: 50px;
     }
 	.card-bg {
 		margin: auto;
-		width: 300px;
+		/*width: 300px;*/
 		margin-bottom: 50px;
 	}
 	.sub-heading {
