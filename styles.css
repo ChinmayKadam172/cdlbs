@@ -219,6 +219,7 @@ p {
 	}
 	.gallery img {
 		margin: auto;
+		padding-right: 50px;
 	}
     .gallery{
         margin: auto;
