@@ -66,6 +66,26 @@ a:hover {
 	background-color: #31E25B;
 	color: black;
 }
+
+#about{
+	opacity: 0;
+	transform:translateY(150);
+	animation-name:translate;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;  
+}
+
+@keyframes translate {
+	0%{
+		transform: translateY(150px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
 .custom-section {
 	background-image: url("assets/bg3.jpg");
 	padding: 100px;
